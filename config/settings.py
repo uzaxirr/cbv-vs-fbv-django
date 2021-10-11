@@ -38,8 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fbvApp',
+    'course',
     'cbvApp',
-    'rest_framework'
+    'rest_framework',
+    'mixin_api',
+    'generic_api',
+    'course_mixin',
 ]
 
 MIDDLEWARE = [

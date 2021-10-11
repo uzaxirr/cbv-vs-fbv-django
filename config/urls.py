@@ -20,5 +20,9 @@ from django.urls.conf import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('fbv/', include('fbvApp.urls')),
-    path('cbv/', include('cbvApp.urls'))
+    path('cbv/', include('cbvApp.urls')),
+    path('course/', include('course.urls')),
+    path('mixin/', include('mixin_api.urls')),
+    path('ass/', include('course_mixin.urls')),
+    path('gen/', include('generic_api.urls')),
 ]
